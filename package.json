@@ -1,0 +1,18 @@
+{
+  "name": "wordpress-dev",
+  "version": "1.0.0",
+  "description": "A wordpress dev setup",
+  "main": "index.js",
+  "author": "Kyle Erickson",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs-extra": "^2.1.2",
+    "unzip-stream": "^0.1.2"
+  },
+  "scripts": {
+    "build-wp": "npm run unpack-wp && cd $npm_config_project && docker-compose up -d && cd .. && npm run unpack-addons && cd $npm_config_project/wp-content/themes/starter-theme-master && yarn install",
+    "unpack-wp": "node unpack-wp.js",
+    "unpack-addons": "node unpack-addons.js"
+  }
+}
