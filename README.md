@@ -21,6 +21,12 @@ To get up and running on your local machine, please follow these instructions:
 
 ### Installing
 
+Go into the root directory and run the following:
+
+```
+yarn install
+```
+
 Make sure nothing is running on port 8080 or 8081, as these are the ports we'll use with Docker to get up and running.
 Run the following script to unpack and create a new wordpress install:
 
