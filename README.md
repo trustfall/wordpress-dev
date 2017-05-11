@@ -6,7 +6,7 @@ This tool will download all required Docker images, link them, and create a dire
 
 ### Webpack features
 * Hot Module Reloading (note that refreshes will happen when editing `.twig` files).
-* Minifying styles, scripts and impage compression on all production builds.
+* Minifying styles, scripts and image compression on all production builds.
 
 
 ## Getting Started
