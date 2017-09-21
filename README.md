@@ -17,14 +17,13 @@ To get up and running on your local machine, please follow these instructions:
 
 * [NodeJS](https://nodejs.org/)
 * [Docker](https://www.docker.com/community-edition)
-* [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 ### Installing
 
 Go into the root directory and run the following:
 
 ```
-yarn install
+npm install
 ```
 
 Make sure nothing is running on port 8080 or 8081, as these are the ports we'll use with Docker to get up and running.
