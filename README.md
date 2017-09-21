@@ -33,7 +33,7 @@ Run the following script to unpack and create a new wordpress install:
 npm run build-wp --project="my-site"
 ```
 
-Visit `http://localhost:8080/` after everything has been extracted and setup WordPress.
+Visit `http://localhost:8080/` after everything has been extracted and setup WordPress. You'll have to run `npminstall` in your theme directory when you wish to start working  on your theme.
 
 ### Development
 
